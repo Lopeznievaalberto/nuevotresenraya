@@ -12,7 +12,7 @@ const entrar = () => {
     let jugador2 = document.getElementById("jugador").value;
     localStorage.setItem("nombre", jugador1);
     localStorage.setItem("jugador", jugador2);
-    window.location.href=('./html/tablero.html');
+    window.location.href=('/html/tablero.html');
     document.getElementById("nombre").value = "";
     document.getElementById("jugador").value = "";  
 }
