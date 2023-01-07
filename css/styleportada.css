@@ -6,7 +6,7 @@ body{
 
 #botondecomenzar{
     display:inline-flex;
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     background:red ;
     color: white;
     cursor: pointer;
