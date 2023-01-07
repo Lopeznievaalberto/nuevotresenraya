@@ -1,6 +1,6 @@
 const cuadrado_btn = document.querySelectorAll(".cuadrado");
 const cabecera = document.getElementById("cabecera");
-const botondejuego = document.querySelectorAll("botondejuego");
+const botondejuego = document.getElementById("botondejuego");
 let i = 1;
 const eventinitial = "pointer-events:initial;opacity:initial;";
 const   eventoopacity = "pointer-events:none;opacity:40%;";
@@ -12,7 +12,7 @@ const entrar = () => {
     let jugador2 = document.getElementById("jugador").value;
     localStorage.setItem("nombre", jugador1);
     localStorage.setItem("jugador", jugador2);
-    window.location.href=('/html/tablero.html');
+    window.location.href=('./html/tablero.html');
     document.getElementById("nombre").value = "";
     document.getElementById("jugador").value = "";  
 }
