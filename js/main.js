@@ -12,7 +12,7 @@ const entrar = () => {
     let jugador2 = document.getElementById("jugador").value;
     localStorage.setItem("nombre", jugador1);
     localStorage.setItem("jugador", jugador2);
-    window.location.href=('/html/tablero.html');
+    window.location.href=('./html/tablero.html');
     document.getElementById("nombre").value = "";
     document.getElementById("jugador").value = "";  
 }
@@ -90,7 +90,7 @@ de cada elemento en la matriz cuadrado_btn hasta "initial", estp hace que innerH
 establece el HTML interno de cada elemento
 en la matriz cuadrado_btn a una cadena vacía, establece la variable de estado en falso y llama al
 Función nempezar. */
-botondejuego.onclick = function () {
+botondejuego.onclick = () =>{
     for (let actionboton = 0; actionboton < cuadrado_btn.length; actionboton++) {
         cuadrado_btn[actionboton].style.cssText = "pointer-events:initial;";
         cuadrado_btn[actionboton].innerHTML = "";
