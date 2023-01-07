@@ -90,7 +90,7 @@ de cada elemento en la matriz cuadrado_btn hasta "initial", estp hace que innerH
 establece el HTML interno de cada elemento
 en la matriz cuadrado_btn a una cadena vacía, establece la variable de estado en falso y llama al
 Función nempezar. */
-botondejuego.onclick = () => {
+botondejuego.onload = () => {
     for (let actionboton = 0; actionboton < cuadrado_btn.length; actionboton++) {
         cuadrado_btn[actionboton].style.cssText = "pointer-events:initial;";
         cuadrado_btn[actionboton].innerHTML = "";
