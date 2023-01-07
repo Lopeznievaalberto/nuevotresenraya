@@ -64,7 +64,7 @@ desactivarcasillas = (d) => {
 }
 
 empezar = () => {
-    botondejuego.style.cssText = eventoopacity;
+    botondejuego.style.cssText = eventopacity;
     let c1;
     (i % 2 == 0) ? c1 = "X" : c1 = "O";
     cabecera.innerHTML = `Presione cualquier cuadrado para iniciar: <b>"${c1}"</b> empezar.`;
