@@ -1,6 +1,6 @@
 const cuadrado_btn = document.querySelectorAll(".cuadrado");
 const cabecera = document.getElementById("cabecera");
-const botondejuego = document.getElementById("botondejuego");
+const botondejuego = document.querySelectorAll("botondejuego");
 let i = 1;
 const eventinitial = "pointer-events:initial;opacity:initial;";
 const   eventoopacity = "pointer-events:none;opacity:40%;";
